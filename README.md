@@ -1,12 +1,83 @@
-# React + Vite
+# 🌿 EcoTrack+
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EcoTrack+ is a personal carbon footprint tracker that empowers individuals to live more sustainably by logging daily eco-related activities, learning green tips, and engaging in challenges. Built with **React** and **Tailwind CSS**, it’s designed with a modern, nature-inspired UI supporting light and dark modes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 MVP Features
 
-## Expanding the ESLint configuration
+✅ Log daily eco-friendly activities (e.g., recycling, walking instead of driving)  
+✅ View eco-summaries with simple stats  
+✅ Explore eco-challenges to encourage sustainable habits  
+✅ Responsive, animated UI with light/dark theme toggle  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧪 Tech Stack
+
+- **React** (Frontend library)  
+- **Tailwind CSS** (Utility-first styling)  
+- **Framer Motion** (Animations)  
+- **Vite** (Development environment)  
+
+---
+
+## 🌈 Screenshots
+
+### 🌞 Light Mode
+![Light Mode Screenshot](screenshots/light-mode.png)
+
+### 🌙 Dark Mode
+![Dark Mode Screenshot](screenshots/dark-mode.png)
+
+*Screenshots can be replaced with real ones once deployed or taken locally.*
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/HARINI-L-N/eco-track-plus.git
+cd eco-track-plus
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Run the App
+```bash
+npm run dev
+```
+
+Open your browser at [http://localhost:5173](http://localhost:5173)
+
+---
+
+## ✨ Folder Structure
+
+```
+src/
+│
+├── components/         # Reusable UI components
+├── pages/              # Pages for routing
+├── assets/             # Images, logos, etc.
+├── App.jsx             # Main app component
+└── main.jsx            # App entry point
+```
+
+---
+
+## 👩‍💻 Author
+
+- [Harini L N](https://github.com/HARINI-L-N)
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
